@@ -1,1 +1,6 @@
 <---!Home CSS Sheet--->
+body {
+  background-color: #D4E4F2;
+  padding: 25px;
+  font-family: sans-serif;
+}
