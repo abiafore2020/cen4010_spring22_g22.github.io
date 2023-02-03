@@ -10,16 +10,16 @@ body {
   font-family: georgia, serif;
 }
   .mountains{
-    background-image: url("https://github.com/abiafore2020/cen4010_spring22_g22.github.io/blob/main/pics_for_abiafore/pretty_mountains.jpeg?raw=true");
-      width:600px;
-      height:400px;
-      background-position: right
+    position: relative;
+      }
+  .moon .overlaytext_mountains{
+    position: abolute;
       }
   .moon{
-    background-image: url("https://github.com/abiafore2020/cen4010_spring22_g22.github.io/blob/main/pics_for_abiafore/moon.jpeg?raw=true");
-       width:580px;
-      height:480px;
-      background-position: right
+    position: relative;
+      }
+   .moon .overlaytext_moon{
+     position: abolute;
       }
   h1 {text-align: center;}
   h2 {text-align: center;}
@@ -29,6 +29,8 @@ body {
     <h1>About Me</h1><br>
     <h2>Angelina Biafore</h2>
          <div class="mountains">
+           <img class="mountains_pretty" src="https://github.com/abiafore2020/cen4010_spring22_g22.github.io/blob/main/pics_for_abiafore/pretty_mountains.jpeg?raw=true" align="right">
+           <div class="overlaytext_mountains">
           <p>
             My name is Angelina Biafore and I'm a member of Group 22 in Dr Shihong Huang's CEN 4010 class. 
             I am a junior studying Computer Science at FAU and have been here since last fall! I originally went to
@@ -38,11 +40,14 @@ body {
             for our school's radio station, Owl Radio and created the website they used, but used Squarespace since I'm not too good at HTML to make
             a good looking website. I hope to go into video game design or something similar since I like how creative I get to be.
           </p>
+           </div>
     </div>
       <br>
       <br>
       <br>
         <div class="moon">
+          <img class="moon_pretty" src="https://github.com/abiafore2020/cen4010_spring22_g22.github.io/blob/main/pics_for_abiafore/moon.jpeg?raw=true" align="right">
+          <div class="overlaytext_moon">
           <p>
             I am originally from Rhode Island and grew up there. Some of my favorite things to do include skiing, yoga, reading and swimming! I love
             getting outside but am still getting used to the Florida heat. I have two dogs, Henry and Ollie who I adore but I would love to 
@@ -52,6 +57,7 @@ body {
             some day, not that anyone would buy it but I think it would be cute. If modern society wasn't a thing I think I'd be a small gardener and take
             care of cows in Wisconsin near a big mountain and a lake. 
           </p>
+          </div>
     </div>
     <br>
     <br>
